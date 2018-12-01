@@ -1,0 +1,476 @@
+/*!
+ * Created by Jayant Bramhankar (www.sahyadritechnologies.com) 
+ * Youtube Channel - https://www.youtube.com/channel/UCPSeFaxM6ni_HGpfkb3Kwbw;
+ * License - Free to use
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body
+{
+  background: #fcfcfc;
+	
+    height: 100%;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+
+.container
+{
+  margin: 0px auto;
+  padding: 0;
+}
+
+.app
+{
+  background: #fff;  
+  min-height: 640px;
+  box-shadow: inset 20px 0px 00px rgba(244, 215, 66,0.3);
+  overflow: hidden;
+  background: transparent;
+}
+.shape-circle{
+	position: absolute;
+	top:45%;
+	right: 0;
+	background: rgba(244, 215, 66,0.5);
+  width: 180px;
+	height: 160px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+  animation: shapeanimate 1s ease-in;
+}
+
+.page-heading
+{ 
+  font-size: 2em;
+  margin: 60px 0 5px 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+  letter-spacing: -2px;
+  line-height: 40px;
+  text-shadow: #f0f0f0 2px 2px 0;
+  border-bottom:1px solid #555;
+}
+
+.page-heading span{
+    border-bottom: 3px solid #ead109;
+    display: inline-block;
+    margin: 0 0 -2px 0;
+    padding: 5px 3px;
+}
+
+.page-heading i{
+  float: right;
+    padding: 10px;
+}
+
+
+.login-container{
+  background: transparent;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.login-container h3{
+   font-size: 2em;
+  margin: 10px 0 85px 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+  text-decoration: none;
+  font-size: 1.6em;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-shadow: #f0f0f0 2px 2px 0;
+}
+
+.login-container .form-control{
+  position: relative;
+}
+
+
+
+.login-container .form-control input{
+  width: 60%;
+  padding: 15px 0 10px 25px;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #555;
+  border: 1px solid rgba(244, 215, 66,1);
+  border-left: 0px;
+  outline: none;
+  background: transparent;
+  background: rgba(244, 215, 66,0.6);
+}
+.login-container .form-control input:focus{
+  background: rgba(244, 215, 66,0.3);
+}
+.login-container .form-control input.username{
+  border-top-right-radius: 50px;
+  border-bottom:  1px solid rgba(244, 215, 66,1);
+}
+.login-container .form-control input.password{
+  border-bottom-right-radius: 50px;
+  border-top: 0px;
+}
+
+.button-submit{
+  position: absolute;
+  top: 152px;
+  right: 10px;
+  border:1px solid rgba(244, 214, 65, 1);
+  background: rgba(244, 214, 65, 0.7);
+  width: 100px;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 20%;
+  box-shadow: 4px 4px #f4c141;
+  color: #565454;
+}
+.button-submit:hover{
+  box-shadow: 4px 4px #d1a740;
+  color: #fff;
+}
+
+
+
+@keyframes shapeanimate{
+    0%{ 
+  background: rgba(244, 215, 66,0.3);}
+    25%{ 
+  background: rgba(244, 215, 66,0.5);}
+    50%{
+  background: rgba(244, 215, 66,0.7);}
+    75%{ 
+  background: rgba(244, 215, 66,0.9);} 
+    100%{
+  background: rgba(244, 215, 66,0.5);}
+}
+/**Home Index page css starts here*/
+
+.menubar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 5px solid rgba(244, 215, 66,0.3);
+}
+
+.menubar li{
+  float: left;
+  width: 33.33%;
+}
+
+.menubar li:nth-child(0){
+  text-align: left;
+}
+.menubar li:nth-child(2){
+  text-align: center;
+}
+.menubar li:nth-child(3){
+  text-align: right;
+}
+
+.menubar li a {   
+    display: block;
+    text-decoration: none;
+  font-size: 1.5em;
+  color: #555;
+}
+ 
+.menubar li a.active {
+    color: #111;
+}
+
+.menubar li a i{
+  padding: 10px;
+}
+
+.menushape1{
+  width: 450px;
+  height: 400px;
+  background-color: rgba(244, 215, 66,0.3);
+background: linear-gradient(90deg, rgba(247,118,43,0.8) 0%, rgba(246,212,98,0.5) 35%, rgba(255,235,0,0.6) 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  z-index: -1;
+}
+
+
+.menushape2{
+  width: 400px;
+  height: 400px;
+  background-color: rgba(244, 215, 66,0.2);
+background: linear-gradient(90deg, rgba(247,118,43,0.5) 0%, rgba(255,230,145,0.6) 35%, rgba(245,217,54,0.9) 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: -100px;
+  z-index: -1;
+}
+
+.sidenav{
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #555;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 1.5em;
+    color: rgba(244, 215, 66,0.8);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenavshape{
+  width: 400px;
+  height: 500px;
+  background: rgba(244, 215, 66,1);
+  border-radius: 10%;
+  transform: rotate(40deg);
+  position: absolute;
+  top: -80px;
+  left: -230px;
+  z-index: -1;
+}
+
+.sidenav ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    margin: 50px 0;
+    height: 360px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+}
+
+.sidenav li:last-child{
+    margin-top: auto;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+ }
+
+.sidenav li a:not(.closebtn) {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    width: 160px;
+}
+ .sidenav li:last-child{
+    vertical-align: bottom;
+    font-size: 0.8em;
+    width: 120px;
+    border:1px solid rgba(244, 215, 66,0.4);
+ }
+.sidenav li.active a {
+    background-color: rgba(255, 255, 255, 0.7);
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: #555;
+  font-weight: 600;
+}
+.sidenav li a:hover {
+    background-color: #555;
+    color: white;
+}
+ 
+
+.profile{
+  padding: 0 25px
+}
+.profile img{
+  width: 100px;
+  background-color: rgba(244, 215, 66,0.4)
+  border:5px solid rgba(244, 215, 66,0.8);
+  float: right;
+  margin: 0 25px;
+}
+
+.profile h3{
+  position: absolute;
+  font-size: 1.4em;
+  width: 100px;
+  background-color: rgba(244, 215, 66,0.4)
+  border:5px solid rgba(244, 215, 66,0.8);
+  margin: 25px 0;
+  color: #555;
+  top: 75px;
+  left: 20px;
+}
+
+.profile p{
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  color: #000;
+  border-top: 1px solid #fff;
+  letter-spacing: 1px;
+}
+
+.clearfix
+{
+  clear: both;
+}
+
+
+/**HOME PAGE**/
+
+.owl-carousel {
+  margin-top: 25px;
+}
+
+.owl-carousel .item{
+  margin-top: 25px;
+  background: rgba(255, 255, 255,0.3);
+  padding-bottom: 5px;
+  height: 180px;
+}
+.owl-carousel .item img{
+  height: 130px;
+  border: 10px solid  rgba(255, 255, 255,0.3);
+}
+
+
+.owl-carousel .item h4{
+  font-size: 1em;
+  color: #111;
+  margin: 5px;
+  text-align: center;
+}
+
+.news{
+  margin-top:25px; 
+  padding: 5px;
+}
+
+.news h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 1.5em;
+  font-weight: 800;
+  border-bottom: 1px solid rgba(244, 215, 66,0.8);
+  margin: 20px 0;
+}
+
+.news h2 span{
+    border-bottom: 3px solid #555;
+    display: inline-block;
+    margin: 0 0 -2px 0;
+    padding: 5px 3px;
+}
+
+.news .news-item {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.news .news-item img{ 
+  height: 100px;
+  width: 25%;
+  border:5px solid rgba(244, 215, 66,0.4);
+  border-radius: 10px;
+  float: left;
+  box-shadow: -10px -10px 1px rgba(244, 215, 66,0.7);
+  position: relative;
+  top: -10px;
+}
+.news .news-desc {
+  margin-top: 10px;
+  height: 80px;
+  border-top:1px dashed rgba(244, 215, 66,1);
+  border-bottom:1px dotted rgba(244, 215, 66,1);
+  padding: 5px 0 0 15px;
+  float: left;
+  width: 58%;
+}
+
+.news .news-item h4{
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.news .news-item p{
+  font-size: 0.9em;
+}
+
+
+.news .news-item .social{ 
+  height: 100px;
+  width: 15%;
+  border:5px solid rgba(244, 215, 66,0.4);
+  border-radius: 10px;
+  float: right;
+  box-shadow: 10px 10px 1px rgba(244, 215, 66,0.7);
+  position: relative;
+  bottom: -10px;
+  text-align: center;
+}
+
+.news .news-item .social a{
+  line-height: 30px;
+}

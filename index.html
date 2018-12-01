@@ -1,0 +1,173 @@
+<!-- 
+ * Created by Jayant Bramhankar (www.sahyadritechnologies.com) 
+ * Youtube Channel - https://www.youtube.com/channel/UCPSeFaxM6ni_HGpfkb3Kwbw;
+ * License - Free to use -->
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width">
+
+	<title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+</head>
+</head>
+<body>
+	<div class="container">
+
+		<div class="app">
+			<div class="menushape1"></div>
+			<div class="menushape2"></div>
+			<ul class="menubar">
+				<li><a class="active"  href="javascript:void(0)" onclick="openNav()"><i class="fas fa-bars"></i></a></li>
+				<li><a href="#"><i class="fas fa-home"></i></a></li>
+				<li><a href="#"><i class="fas fa-ellipsis-v"></i></a></li>
+			</ul>
+
+			<div class="sidenav" id="sidenav">
+				<div class="sidenavshape"></div>
+				<div class="profile">
+					<img src="images/avtar.png" alt="avtar">
+					<h3>John Doe</h3>
+					<p>Designer / Blogger</h3>
+				</div>
+				<div class="clearfix"></div>
+				<ul>
+					<li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a></li>
+					<li><a href="">Profile</a></li>
+					<li class="active"><a href="">About</a></li>
+					<li><a href="">Blogs</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href=""><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+				</ul> 
+			</div>
+			<!-- Home page starts here -->
+			<div class="row">
+		        <div class="col-12">
+		          <div class="owl-carousel">
+		            <div class="item" data-merge="5">
+		              <img src="images/avengers.jpeg" alt="">
+		              <h4>Read movie reviews..</h4>
+		            </div>
+		            <div class="item" data-merge="3">
+		              <img src="images/honda.jpg" alt="">
+		              <h4>Honda launching new car</h4>
+		            </div>
+		            <div class="item" data-merge="3">
+		              <img src="images/abd.jpg" alt="">
+		              <h4>Mr. 360 / Superman</h4>
+		            </div>
+		            <div class="item" data-merge="3">
+		              <img src="images/robo.jpg" alt="">
+		              <h4>Movie reviews...super hit </h4>
+		              </div>
+		            <div class="item" data-merge="4">
+		              <img src="images/pubg.jpg" alt="">
+		              <h4>Top #1 game in android </h4>
+		            </div>
+		            <div class="item" data-merge="3">
+		              <img src="images/cricket.jpg" alt="">
+		              <h4>Thriller is coming (AUS / INDIA)</h4>
+		            </div>
+
+		          </div>
+		          <div class="news">
+		          	<h2><span>Popular</span></h2>		          	
+		          	<div class="row news-item">
+		          		<img src="images/abd.jpg" alt="">
+		          		<div class="news-desc">
+		          			<h4>This is heading</h4>
+		          			<p>this is long descriptive paraghraph........</p>
+		          		</div>
+		          		<div class="social">
+		          			<a href="" class="text-success"><i class="fas fa-thumbs-up"></i></a>
+		          			<br>
+		          			<a href="" class="text-info"><i class="fas fa-share"></i></a>
+		          			<br>
+		          			<a href="" class="text-secondary"><i class="fas fa-comment"></i></a>
+		          		</div>
+		          	</div>
+		          	<div class="row news-item">
+		          		<img src="images/robo.jpg" alt="">
+		          		<div class="news-desc">
+		          			<h4>This is heading</h4>
+		          			<p>this is long descriptive paraghraph........</p>
+		          		</div>
+		          		<div class="social">
+		          			
+		          			<a href="" class="text-success"><i class="fas fa-thumbs-up"></i></a>
+		          			<br>
+		          			<a href="" class="text-info"><i class="fas fa-share"></i></a>
+		          			<br>
+		          			<a href="" class="text-secondary"><i class="fas fa-comment"></i></a>
+		          		</div>
+		          	</div>
+		          	<div class="row news-item">
+		          		<img src="images/cricket.jpg" alt="">
+		          		<div class="news-desc">
+		          			<h4>This is heading</h4>
+		          			<p>this is long descriptive paraghraph........</p>
+		          		</div>
+		          		<div class="social">
+		          			
+		          			<a href="" class="text-success"><i class="fas fa-thumbs-up"></i></a>
+		          			<br>
+		          			<a href="" class="text-info"><i class="fas fa-share"></i></a>
+		          			<br>
+		          			<a href="" class="text-secondary"><i class="fas fa-comment"></i></a>
+		          		</div>
+		          	</div>
+		          	<div>
+		          		<img src="" alt="" class="col-2">
+		          		<div class="col-10">
+		          			<h4></h4>
+		          			<p></p>
+		          		</div>
+		          	</div>
+		          	<div>
+		          		<img src="" alt="" class="col-2">
+		          		<div class="col-10">
+		          			<h4></h4>
+		          			<p></p>
+		          		</div>
+		          	</div>
+		          </div>
+				</div>		 
+			</div>
+	</div> <!-- app close -->
+	</div> <!-- container close -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+<script>
+function openNav() {
+    document.getElementById("sidenav").style.width = "300px";
+}
+
+function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+}
+$(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+                items: 6,
+                loop: true,
+                margin: 10,
+                merge: true,
+                responsive: {
+                  678: {
+                    mergeFit: true
+                  },
+                  1000: {
+                    mergeFit: false
+                  }
+                }
+              });
+            })
+</script>
+     
+</body>
+</html>
