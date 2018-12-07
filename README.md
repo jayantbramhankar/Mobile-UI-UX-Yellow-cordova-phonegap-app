@@ -16,7 +16,7 @@ Includes (login page, home with sidebar navigation)
 - Owl Carousel v2.3.4
 - Bootstrap v4.1.3 
 
-![alt text](https://raw.githubusercontent.com/jayantbramhankar/Mobile-UI-UX-Yellow-cordova-phonegap-app/master/images/template.jpg)
+![alt text](https://raw.githubusercontent.com/jayantbramhankar/Mobile-UI-UX-Yellow-cordova-phonegap-app/master/images/template-new.jpg)
 
 by, Jayant Bramhankar (www.sahyadritechnologies.com)
 
